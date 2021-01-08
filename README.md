@@ -1,4 +1,4 @@
-# singup
+# サインアップ画面
 
 HTML, CSS study
 
