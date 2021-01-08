@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>入会申し込み</title>
-
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/sanitize.css">
   </head>
@@ -13,12 +12,11 @@
       <h1>入会申し込み</h1>
       <p>入会するには、次のフォームに必要事項をご記入ください</p>
       <div class="control">
-        <!-- forでidと紐付け -->
-        <label for="mymail">メールアドレス 必須</label>
+        <label for="mymail">メールアドレス <span class="required">必須</span></label>
         <input id="mymail" type="email" name="mymail">
       </div>
       <div class="control">
-        <label for="password">パスワード 必須</label>
+        <label for="password">パスワード <span class="required">必須</span></label>
         <input id="password" type="password" name="password">
       </div>
       <div class="control">
